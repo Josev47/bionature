@@ -1,0 +1,67 @@
+
+:root {
+  --bio1: #06a8b2;
+  --bio2: #ca6ae5;
+  --bioGrad: linear-gradient(90deg, #06a8b2, #ca6ae5);
+}
+
+.bg-bio1 {
+  background-color: var(--bio1) !important;
+}
+
+.bg-bio2 {
+  background-color: var(--bio2) !important;
+}
+
+.bio1{
+ color: var(--bio1) !important;
+}
+
+.bio2{
+  color: var(--bio2) !important;
+}
+
+.divider-bio1{
+  border-top: 1px solid var(--bio1) !important;
+}
+
+.divider-bio2{
+  border-top: 1px solid var(--bio2) !important;
+}
+
+.border-left-bio1{
+  border-left: .25rem solid var(--bio1) !important;
+}
+
+.border-left-bio2{
+  border-left: .25rem solid var(--bio2) !important;
+}
+
+.bio-size{
+  font-size: 1.1rem !important;
+}
+
+.btn-bio1 {
+  background-color: var(--bio1) !important;
+  color: #fff !important;
+
+}
+
+.btn-bio2 {
+  background-color: var(--bio2) !important;
+  color: #fff !important;
+}
+
+.bg-bioG{
+  background-image: var(--bioGrad);
+}
+
+.btn-bioG{
+  background-image: var(--bioGrad);
+  border-color: #fff;
+  color: #fff !important;
+}
+
+.blanco{
+  color: #fff !important;
+}
